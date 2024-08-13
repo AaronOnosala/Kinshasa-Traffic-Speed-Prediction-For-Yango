@@ -54,6 +54,22 @@ You can visually follow the tree structure. In this tree, the first decision is 
 
 Here is the structure of the model we built in this project:
 
+<img width="578" alt="Screenshot 2024-08-13 at 09 20 41" src="https://github.com/user-attachments/assets/b7ed12f6-2c91-4f5c-8913-8e05d0df311a">
+
+The composed model has three stages:
+
+1. The first stage is a preprocessing layer composed of a neural network and common to all the models in the next stage. In practice, such a preprocessing layer could either be a pre-trained embedding to fine-tune, or a randomly initialized neural network.
+
+2. The second stage is an ensemble of two decision forest and two neural network models.
+
+3. The last stage averages the predictions of the models in the second stage. It does not contain any learnable weights.
+The neural networks are trained using the backpropagation algorithm and gradient descent. This algorithm has two important properties: (1) The layer of neural network can be trained if its receives a loss gradient (more precisely, the gradient of the loss according to the layer's output), and (2) the algorithm "transmits" the loss gradient from the layer's output to the layer's input (this is the "chain rule"). For these two reasons, Backpropagation can train together multiple layers of neural networks stacked on top of each other.
+
+The decision forests are trained with the Random Forest (RF) algorithm. Unlike Backpropagation, the training of RF does not "transmit" the loss gradient to from its output to its input. For this reasons, the classical RF algorithm cannot be used to train or fine-tune a neural network underneath. In other words, the "decision forest" stages cannot be used to train the "Learnable NN pre-processing block".
+
+1. Train the preprocessing and neural networks stage.
+2. Train the decision forest stages.
+
 ## Challenges
 
  - __Model Selection:__ Identifying the most suitable model for the dataset was a significant challenge. Initial attempts with models like Random Forest did not meet expectations.
