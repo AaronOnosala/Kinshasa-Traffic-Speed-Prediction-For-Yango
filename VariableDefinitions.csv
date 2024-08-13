@@ -1,0 +1,15 @@
+Name,Description
+persistent_id,id of the road section
+count_norm,normalized number of car trips
+speed_avg,average speed (meters per second)
+"""first_weekday_""",First weekday
+"""first_weekday_00_""",first hour of the first day
+"""first_weekday_00_0_""",first quarter of the first hour of the first day
+"""first_weekday_00_1_""",second quarter of the first hour of the first day
+"""first_weekday_00_2_""",third quarter of the first hour of the first day
+"""first_weekday_00_3_""",fourth quarter of the first hour of the first day
+"""first_weekday_01_""",second hour of the first day
+"""first_weekday_01_0_""",first quarter of the second hour of the first day
+...,...
+"""first_weekday_23_3_""",third quarter of the twenty-fourth hours of the first day
+"""last_weekday_""",Last weekday
