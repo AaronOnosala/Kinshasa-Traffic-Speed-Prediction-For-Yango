@@ -23,7 +23,12 @@ To achieve this, the project was structured into several key phases:
 ### Exploratory Data Analysis:
 
  + __Visualization:__ Conducted comprehensive visual analysis to understand traffic patterns and identify significant trends and correlations.
+   
+ <img width="923" alt="Screenshot 2024-08-13 at 12 17 16" src="https://github.com/user-attachments/assets/7ed5378b-e499-4318-8f09-14b075d40cc4">
+ 
  + __Statistical Analysis:__ Applied statistical methods to validate assumptions and enhance feature selection.
+
+   
 
 ### Model Selection:
 
