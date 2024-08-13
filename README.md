@@ -28,7 +28,8 @@ To achieve this, the project was structured into several key phases:
  
  + __Statistical Analysis:__ Applied statistical methods to validate assumptions and enhance feature selection.
 
-   
+<img width="925" alt="Screenshot 2024-08-13 at 12 18 01" src="https://github.com/user-attachments/assets/2bfefbdd-ff87-403b-a74b-32e3efca7c17">
+
 
 ### Model Selection:
 
