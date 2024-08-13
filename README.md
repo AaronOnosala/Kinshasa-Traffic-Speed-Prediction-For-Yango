@@ -47,6 +47,9 @@ To achieve this, the project was structured into several key phases:
  + __TensorFlow Decision Forest:__ Chosen for its capability to handle complex structured data, providing accurate and reliable predictions.
  + __K-Fold Cross-Validation:__ Ensured model stability and generalizability, preventing overfitting and enhancing prediction accuracy.
 
+### TensorFlow Decision Forest Network Structure
+You can visually follow the tree structure. In this tree, the first decision is based on the bill length. 
+
 ## Challenges
 
  - __Model Selection:__ Identifying the most suitable model for the dataset was a significant challenge. Initial attempts with models like Random Forest did not meet expectations.
