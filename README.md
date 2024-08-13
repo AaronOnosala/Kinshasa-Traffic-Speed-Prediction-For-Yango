@@ -43,6 +43,7 @@ To achieve this, the project was structured into several key phases:
 ## AI Tools and Techniques
 ### AI Framework Used In This Project
 <img width="741" alt="Screenshot 2024-08-12 at 11 46 01" src="https://github.com/user-attachments/assets/47820292-eb6f-44ce-b30d-65314b952538">
+
  + __TensorFlow Decision Forest:__ Chosen for its capability to handle complex structured data, providing accurate and reliable predictions.
  + __K-Fold Cross-Validation:__ Ensured model stability and generalizability, preventing overfitting and enhancing prediction accuracy.
 
