@@ -50,6 +50,10 @@ To achieve this, the project was structured into several key phases:
 ### TensorFlow Decision Forest Network Structure
 You can visually follow the tree structure. In this tree, the first decision is based on the bill length. 
 
+<img width="704" alt="Screenshot 2024-08-13 at 09 19 34" src="https://github.com/user-attachments/assets/7fe26f87-d1b2-4cfc-b405-bf748194a4f6">
+
+Here is the structure of the model we built in this project:
+
 ## Challenges
 
  - __Model Selection:__ Identifying the most suitable model for the dataset was a significant challenge. Initial attempts with models like Random Forest did not meet expectations.
